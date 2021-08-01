@@ -1,0 +1,144 @@
+body,
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e8dcd0;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+a {
+    outline: 0;
+}
+
+h1 {
+    font-size: 9vh;
+    color: #fff;
+    margin: 0;
+}
+
+
+
+.container-fluid {
+    padding: 0;
+    height: 100%;
+    position: relative;
+}
+
+#calculator {
+    height: 100%;
+    max-width: 100%;
+    background-color: #99dccb;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: blue; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#a9e8d8, #74beac); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#a9e8d8, #74beac); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#99dccb, #61af9d); /* Standard syntax */
+}
+#header {
+    padding: 0 10px;
+    height: 11%;
+}
+#display,
+#history {
+    text-align: right;
+    padding: 0 5%;
+    overflow: hidden;
+}
+
+#display {
+    width: 100%;
+    background-color: #fff;
+    opacity: .85;
+    font-size: 13vh;
+    height: 15%;
+}
+
+#history {
+    width: 100%;
+    border-top: 2px solid #99dccb;
+    background-color: #fff;
+    opacity: .85;
+    font-size: 3.5vh;
+    height: 5%;
+}
+
+#keypad {
+    height: 61%;
+}
+
+.row {
+    margin: 0;
+    height: 20%;
+}
+
+.col-sm-3 {
+    width: 23%;
+    margin: 2px;
+}
+
+.key {
+    color: #fff;
+    height: 20%;
+}
+
+.btn {
+    font-size: 7vh;
+}
+#delete {
+    font-variant: small-caps;
+    font-size: 6vh;
+}
+#decimal {
+    font-size: 6rem;
+    line-height: 0;
+}
+footer {
+    font-size: 3vh;
+    height: 5%;
+    color: #fff;
+}
+footer a, footer a:active, footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media (min-width: 769px) {
+    #calculator {
+        width: 400px;
+        height: 720px;
+        margin-top: 75px;
+        border-radius: 10px;
+    }
+    h1 {
+        font-size: 3.5em;
+        padding-top: 6px;
+    }
+    #header {
+        border-radius: 10px;
+    }
+    #display {
+        font-size: 5em;
+    }
+    #history {
+        font-size: 1.3em;
+    }
+    .btn {
+        font-size: 2.2em;
+    }
+    #delete {
+    font-size: 2.4em;
+}
+    footer {
+        font-size: 1.1em;
+    }
+}
